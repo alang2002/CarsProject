@@ -11,18 +11,22 @@ public abstract class Car {
     protected String make, model, color;
     protected int year, weight;
 
-    // Default constructor
+    // Default constructor, sets up variables for object with default values
     public Car() {
-
+        setMake("");
+        setModel("");
+        setColor("");
+        setYear(0);
+        setWeight(0);
     }
 
-    // Overloaded constructor
+    // Overloaded constructor to accept unique values
     public Car(String make, String model, String color, int year, int weight) {
-        this.make = make;
-        this.model = model;
-        this.color = color;
-        this.year = year;
-        this.weight = weight;
+        setMake(make);
+        setModel(model);
+        setColor(color);
+        setYear(year);
+        setWeight(weight);
     }
 
     public String getMake() {
@@ -34,7 +38,7 @@ public abstract class Car {
             this.make = make;
         }
         else {
-            this.make = "Default";
+            this.make = "Factory Default";
         }
     }
 
@@ -47,7 +51,7 @@ public abstract class Car {
             this.model = model;
         }
         else {
-            this.model = "Default";
+            this.model = "Factory Default";
         }
     }
 
@@ -60,7 +64,7 @@ public abstract class Car {
             this.color = color;
         }
         else {
-            this.color = "Default";
+            this.color = "Factory Default";
         }
     }
 
@@ -89,4 +93,14 @@ public abstract class Car {
             this.weight = 2000;
         }
     }
+
+    @Override
+    public String toString() {
+//        return "Make: " + this.make + "\nModel: " + this.model + "\nColor: " + this.color +
+//                "\nYear: " + this.year + "\nWeight: " + this.weight;
+        return "Make: " + getMake() + "\nModel: " + getModel() + "\nColor: " + getColor() +
+                  "\nYear: " + getYear() + "\nWeight: " + getWeight();
+    }
+
+    public abstract double CalcCostPerFill(double pumpCost);
 }
