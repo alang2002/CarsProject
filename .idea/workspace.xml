@@ -23,7 +23,8 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../BMIProject3" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
@@ -49,13 +50,18 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="488" y="39" key="#com.intellij.ide.util.MemberChooser" timestamp="1603222960586">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state x="686" y="56" key="#com.intellij.ide.util.MemberChooser" timestamp="1603239497240">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="488" y="39" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1603222960586" />
+    <state x="686" y="56" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1603239497240" />
     <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1603222002803">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1603222002803" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1603239689105">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1603239689105" />
   </component>
 </project>

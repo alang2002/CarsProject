@@ -102,5 +102,6 @@ public abstract class Car {
                   "\nYear: " + getYear() + "\nWeight: " + getWeight();
     }
 
+    // Abstract method that all classes must implement
     public abstract double CalcCostPerFill(double pumpCost);
 }
