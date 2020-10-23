@@ -10,13 +10,24 @@ public class ElectricCar extends Car{
         setBatteryType("");
     }
 
-    // Overloaded constructor
-    public ElectricCar(String make, String model, String color, int year, int weight, double batterySize, String batteryType) {
-        super(make, model, color, year, weight);
+    /** Overloaded constructor
+     * @param   make        brand of the vehicle (e.g. Ford)
+     * @param   model       name of the product (e.g. F-150)
+     * @param   color       color of the vehicle (e.g. brown)
+     * @param   year        year the product was made (e.g. 2020)
+     * @param   weight      weight of the vehicle (e.g. 2500 (lbs))
+     * @param   pumpCost    cost of using pump to fill up tank  (e.g. ($)1.50
+     * @param   batterySize size of battery used in the vehicle (e.g. 100 (kWh))
+     * @param   batteryType type of battery used in the vehicle (e.g. lithium-ion)
+     */
+    public ElectricCar(String make, String model, String color, int year, int weight, double pumpCost,
+                       double batterySize, String batteryType) {
+        super(make, model, color, year, weight, pumpCost);
         setBatterySize(batterySize);
         setBatteryType(batteryType);
     }
 
+    // Getters and Setters
     public double getBatterySize() {
         return batterySize;
     }
@@ -35,7 +46,7 @@ public class ElectricCar extends Car{
     }
 
     public void setBatteryType(String batteryType) {
-        if (!batteryType.equals("")) {
+        if (!batteryType.isBlank()) {
             this.batteryType = batteryType;
         }
         else {
@@ -43,11 +54,22 @@ public class ElectricCar extends Car{
         }
     }
 
+    /**
+     * @return object with information in text form, printed to the console
+     */
     @Override
     public String toString() {
-        return super.toString() + "\nBattery Size: " + getBatterySize() + "\nBattery Type: " + getBatteryType();
+        String pCost = String.format("%.2f", CalcCostPerFill(getPumpCost()));
+        return "------------------------------------\n" +
+                super.toString() + "\nBattery Size: \t\t" + getBatterySize() + "\nBattery Type: \t\t" + getBatteryType() +
+                "\nCost to fill tank: \t" + pCost +
+                "\n-----------------------------------";
     }
 
+    /**
+     * @param pumpCost cost of using pump to fill up tank
+     * @return cost to fill up tank
+     */
     @Override
     public double CalcCostPerFill(double pumpCost) {
         return batterySize * pumpCost;

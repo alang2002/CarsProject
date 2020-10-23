@@ -11,6 +11,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -23,10 +24,32 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="create.test.in.the.same.root" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.ElectricCarTest.calcCostPerFillTest">
+    <configuration name="CarApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CarApplication" />
+      <module name="CarsProject" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="CarsProject" />
@@ -37,6 +60,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ElectricCarTest.calcCostPerFillTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CarsProject" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ElectricCarTest" />
+      <option name="METHOD_NAME" value="calcCostPerFillTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GasCarTest.calcCostPerFillTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CarsProject" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="GasCarTest" />
+      <option name="METHOD_NAME" value="calcCostPerFillTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.ElectricCarTest.calcCostPerFillTest" />
+        <item itemvalue="JUnit.GasCarTest.calcCostPerFillTest" />
+        <item itemvalue="Application.CarApplication" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -50,15 +100,39 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="686" y="56" key="#com.intellij.ide.util.MemberChooser" timestamp="1603239497240">
+    <state x="686" y="56" key="#com.intellij.ide.util.MemberChooser" timestamp="1603417024528">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="488" y="39" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1603222960586" />
-    <state x="686" y="56" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1603239497240" />
+    <state x="686" y="56" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1603417024528" />
     <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1603222002803">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1603222002803" />
+    <state width="1877" height="138" key="GridCell.Tab.0.bottom" timestamp="1603421908387">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="138" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1603421908387" />
+    <state width="1877" height="138" key="GridCell.Tab.0.center" timestamp="1603421908387">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="138" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1603421908387" />
+    <state width="1877" height="138" key="GridCell.Tab.0.left" timestamp="1603421908387">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="138" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1603421908387" />
+    <state width="1877" height="138" key="GridCell.Tab.0.right" timestamp="1603421908387">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="138" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1603421908387" />
+    <state x="665" y="408" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1603421425560">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="665" y="408" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1920.1040@0.0.1920.1040" timestamp="1603421425560" />
+    <state x="731" y="184" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1603421958971">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="731" y="184" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1603421958971" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1603239689105">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
