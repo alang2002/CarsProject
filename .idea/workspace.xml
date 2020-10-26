@@ -42,51 +42,14 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ElectricCarTest.calcCostPerFillTest">
-    <configuration name="CarApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager">
+    <configuration name="CarApplication" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CarApplication" />
       <module name="CarsProject" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="CarsProject" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ElectricCarTest.calcCostPerFillTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CarsProject" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ElectricCarTest" />
-      <option name="METHOD_NAME" value="calcCostPerFillTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="GasCarTest.calcCostPerFillTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CarsProject" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="GasCarTest" />
-      <option name="METHOD_NAME" value="calcCostPerFillTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="JUnit.ElectricCarTest.calcCostPerFillTest" />
-        <item itemvalue="JUnit.GasCarTest.calcCostPerFillTest" />
-        <item itemvalue="Application.CarApplication" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -100,6 +63,10 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
+    <state x="414" y="174" width="1092" height="763" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1603733327402">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="414" y="174" width="1092" height="763" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1603733327402" />
     <state x="686" y="56" key="#com.intellij.ide.util.MemberChooser" timestamp="1603417024528">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -109,22 +76,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1603222002803" />
-    <state width="1877" height="138" key="GridCell.Tab.0.bottom" timestamp="1603421908387">
+    <state width="1877" height="138" key="GridCell.Tab.0.bottom" timestamp="1603733394224">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="138" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1603421908387" />
-    <state width="1877" height="138" key="GridCell.Tab.0.center" timestamp="1603421908387">
+    <state width="1877" height="138" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1603733394224" />
+    <state width="1877" height="138" key="GridCell.Tab.0.center" timestamp="1603733394223">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="138" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1603421908387" />
-    <state width="1877" height="138" key="GridCell.Tab.0.left" timestamp="1603421908387">
+    <state width="1877" height="138" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1603733394223" />
+    <state width="1877" height="138" key="GridCell.Tab.0.left" timestamp="1603733394223">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="138" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1603421908387" />
-    <state width="1877" height="138" key="GridCell.Tab.0.right" timestamp="1603421908387">
+    <state width="1877" height="138" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1603733394223" />
+    <state width="1877" height="138" key="GridCell.Tab.0.right" timestamp="1603733394223">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="138" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1603421908387" />
+    <state width="1877" height="138" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1603733394223" />
     <state x="665" y="408" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1603421425560">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
